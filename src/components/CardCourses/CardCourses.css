@@ -1,0 +1,39 @@
+
+.listCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.listCard:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column {
+    float: left;
+    width: 500px;
+    height: 250px;
+    padding: 20px;
+  }
+
+.card {
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    background-color: #f1f1f1;
+  }
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.description {
+    margin-top: 10px;
+    background-color: #f1f1f1;
+}
+
