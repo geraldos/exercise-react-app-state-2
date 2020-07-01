@@ -1,19 +1,6 @@
-
-.listCard {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.listCard:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
 .column {
     float: left;
-    width: 500px;
+    width: 100%;
     height: 250px;
     padding: 20px;
   }
